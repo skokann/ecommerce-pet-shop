@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vše pro psy
 
-## Getting Started
+Vše pro psy je online obchod zaměřený na potřeby pro psy. Projekt je postavený pomocí Next.js, Tailwind CSS, Prisma, Supabase a TypeScriptu. Projekt obsahuje moderní design s různými funkcionalitami, jako je výběr měny, vyhledávací pole a navigační odkazy. Další plánované funkcionality zahrnují položky k zakoupení, filtrování položek a správu dat o položkách, stejně jako další běžné funkce e-shopů.
 
-First, run the development server:
+## Obsah
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Začínáme](#začínáme)
+- [Použité technologie](#použité-technologie)
+- [Struktura projektu](#struktura-projektu)
+- [Funkce](#funkce)
+- [Plánované funkce](#plánované-funkce)
+- [Přizpůsobení](#přizpůsobení)
+- [Přispívání](#přispívání)
+- [Licence](#licence)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Začínáme
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pro získání lokální kopie projektu a jeho spuštění postupujte podle těchto kroků.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Požadavky
 
-## Learn More
+Ujistěte se, že máte nainstalováno:
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js (verze 14 nebo vyšší)
+- npm nebo yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Instalace
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Naklonujte repozitář
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```sh
+   git clone https://github.com/your-username/vsepropsy.git
+   cd vsepropsy
